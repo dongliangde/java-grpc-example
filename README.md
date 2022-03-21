@@ -8,7 +8,7 @@ gRPC 是一个高性能、开源和通用的 RPC 框架，面向移动和 HTTP/2
 
 gRPC 默认使用 protocol buffers，这是 Google 开源的一套成熟的结构数据序列化机制，它的作用与 XML、json 类似，但它是二进制格式，性能好、效率高（缺点：可读性差）。
 
-##gRPC主要有4种请求和响应模式
+##gRPC主要有四种请求和响应模式
 分别是简单模式(Simple RPC)、服务端流式（Server-side streaming RPC）、客户端流式（Client-side streaming RPC）、和双向流式（Bidirectional streaming RPC）。
 
 - 简单模式(Simple RPC)：客户端发起请求并等待服务端响应。
@@ -20,9 +20,9 @@ gRPC 默认使用 protocol buffers，这是 Google 开源的一套成熟的结�
 - 双向流式（Bidirectional streaming RPC）：双方使用读写流去发送一个消息序列，两个流独立操作，双方可以同时发送和同时接收。
 
 
-##代码生成
-###protoc
-安装 protoc#
+#代码生成
+##protoc
+安装 protoc
 1.下载地址：https://github.com/protocolbuffers/protobuf/releases
 
 根据自身电脑的操作系统，选择最新的releases版本下载
@@ -34,7 +34,7 @@ gRPC 默认使用 protocol buffers，这是 Google 开源的一套成熟的结�
 3.打开cmd，运行protoc --version
 
 成功打印当前版本信息证明安装成功了。
-###maven
+##maven
 添加Maven依赖
 
 ```
