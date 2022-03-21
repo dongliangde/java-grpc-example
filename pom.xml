@@ -11,6 +11,7 @@
     <modules>
         <module>simple_rpc</module>
         <module>server_stream_rpc</module>
+        <module>client_stream_rpc</module>
     </modules>
 
     <dependencies>
