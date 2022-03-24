@@ -34,6 +34,8 @@ gRPC 默认使用 protocol buffers，这是 Google 开源的一套成熟的结�
 3.打开cmd，运行protoc --version
 
 成功打印当前版本信息证明安装成功了。
+```protoc -I ./ test.proto --go_out=plugins=grpc:./
+```
 ### maven
 添加Maven依赖
 
